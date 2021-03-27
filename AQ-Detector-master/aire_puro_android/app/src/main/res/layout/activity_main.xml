@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="TextFields,HardcodedText"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!--android:backgroundTint="#3FD747"-->
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.63"
+            android:background="@drawable/circle_green"
+            android:fontFamily=""
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#2F3A4F"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColorHighlight="#2F3A4F"
+            android:includeFontPadding="false"
+            android:layout_marginTop="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="299dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Air Quality Index Levels:"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colortext"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="299dp"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif"
+            android:text="Indoor:90-150(ppm)"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colortext"
+            android:textSize="30sp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="299dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="43dp"
+            android:text="Outdoor:50-80(ppm)"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colortext"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>

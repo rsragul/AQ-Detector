@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426840971091",
+    "firebase_url": "https://aire-puro-e8075.firebaseio.com",
+    "project_id": "aire-puro-e8075",
+    "storage_bucket": "aire-puro-e8075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426840971091:android:e2eec5f960d41172",
+        "android_client_info": {
+          "package_name": "com.theweekendparty.airopuro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426840971091-lrsvqi19g3uumupiumen9a3ejmr8o3hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theweekendparty.airopuro",
+            "certificate_hash": "d9db2576cfcc3588158254c52e759e620a64acef"
+          }
+        },
+        {
+          "client_id": "426840971091-008tkl680bard957n6kndn5p7o8h38e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5q0JCX8R8_38Y65PNjqFf7H_oi16Wp7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426840971091-008tkl680bard957n6kndn5p7o8h38e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
